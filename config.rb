@@ -22,6 +22,12 @@ page '/*.txt', layout: false
 # Helpers
 ###
 
+helpers do
+	def hostUrl link
+		'https://zacky1972.github.io/SWEST' + link
+	end
+end
+
 # Reload the browser automatically whenever files change
 # configure :development do
 #   activate :livereload
@@ -41,4 +47,13 @@ configure :build do
 
   # Minify Javascript on build
   # activate :minify_javascript
+
+  activate :asset_hash
+  activate :asset_host, :host => 'https://zacky1972.github.io/SWEST'
+end
+
+activate :deploy do |deploy|
+	deploy.build_before = true
+	deploy.deploy_method = :git
+	deploy.branch = 'gh-pages'
 end

@@ -68,7 +68,14 @@ GEM
       servolux
       tilt (~> 2.0)
       uglifier (~> 3.0)
+    middleman-deploy (2.0.0.pre.alpha)
+      middleman-core (>= 3.2)
+      net-sftp
+      ptools
     minitest (5.10.3)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (4.2.0)
     padrino-helpers (0.13.3.4)
       i18n (~> 0.6, >= 0.6.7)
       padrino-support (= 0.13.3.4)
@@ -76,6 +83,7 @@ GEM
     padrino-support (0.13.3.4)
       activesupport (>= 3.1)
     parallel (1.12.0)
+    ptools (1.3.5)
     public_suffix (3.0.1)
     rack (2.0.3)
     rb-fsevent (0.10.2)
@@ -100,6 +108,7 @@ PLATFORMS
 
 DEPENDENCIES
   middleman (>= 4.0.0)
+  middleman-deploy (~> 2.0.0.pre.alpha)
   slim (>= 3.0)
   tzinfo-data
   wdm (~> 0.1.0)
