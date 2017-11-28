@@ -4,6 +4,23 @@ require 'slim'
 # Page options, layouts, aliases and proxies
 ###
 
+ignore 'README.md'
+
+set :css_dir, 'stylesheets'
+set :js_dir, 'javascripts'
+set :images_dir, 'images'
+set :layouts_dir, 'layouts'
+
+activate :external_pipeline,
+  name: :gulp,
+  command: build? ? './node_modules/gulp/bin/gulp.js' : './node_modules/gulp/bin/gulp.js watch',
+  source: "source"
+
+configure :build do
+  ignore 'stylesheets/*'
+  ignore 'javascripts/*'
+end
+
 # Per-page layout changes:
 #
 # With no layout
