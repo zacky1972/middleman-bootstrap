@@ -4,6 +4,8 @@
   "description": "SWEST Home Page",
   "main": "index.js",
   "scripts": {
+    "develop": "webpack --config ./webpack.config.js --watch -d --progress --colors",
+    "build": "webpack --config ./webpack.config.js --bail -p",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
