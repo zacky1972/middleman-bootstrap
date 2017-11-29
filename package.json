@@ -14,8 +14,5 @@
   "bugs": {
     "url": "https://github.com/zacky1972/SWEST/issues"
   },
-  "homepage": "https://github.com/zacky1972/SWEST#readme",
-  "devDependencies": {
-    "gulp": "^3.9.1"
-  }
+  "homepage": "https://github.com/zacky1972/SWEST#readme"
 }
