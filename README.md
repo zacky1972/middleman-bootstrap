@@ -1,5 +1,14 @@
 # SWEST
 
+## インストール
+
+```
+$ git clone git@github.com:zacky1972/SWEST.git
+$ cd SWEST
+$ npm install
+```
+
+
 ## ローカルプレビュー
 
 ```

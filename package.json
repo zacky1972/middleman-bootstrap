@@ -16,5 +16,11 @@
   "bugs": {
     "url": "https://github.com/zacky1972/SWEST/issues"
   },
-  "homepage": "https://github.com/zacky1972/SWEST#readme"
+  "homepage": "https://github.com/zacky1972/SWEST#readme",
+  "dependencies": {
+    "jquery": "^3.2.1"
+  },
+  "devDependencies": {
+    "webpack": "^3.8.1"
+  }
 }
