@@ -1,10 +1,10 @@
-# SWEST
+# middlman-bootstrap
 
 ## インストール
 
 ```
-$ git clone git@github.com:zacky1972/SWEST.git
-$ cd SWEST
+$ git clone git@github.com:zacky1972/middleman-bootstrap.git
+$ cd middleman-bootstrap
 $ npm install
 ```
 
@@ -23,4 +23,4 @@ $ middleman serve
 $ middleman deploy
 ```
 
-その後，[https://zacky1972.github.io/SWEST/](https://zacky1972.github.io/SWEST/) にアクセス
+その後，[https://zacky1972.github.io/middleman-bootstrap/](https://zacky1972.github.io/middleman-bootstrap/) にアクセス

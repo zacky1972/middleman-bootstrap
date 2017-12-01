@@ -1,7 +1,7 @@
 {
-  "name": "swest",
+  "name": "middleman-boostrap",
   "version": "1.0.0",
-  "description": "SWEST Home Page",
+  "description": "middleman-bootstrap",
   "main": "index.js",
   "scripts": {
     "develop": "webpack --config ./webpack.config.js --watch -d --progress --colors",
@@ -10,13 +10,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/zacky1972/SWEST.git"
+    "url": "git+https://github.com/zacky1972/middleman-bootstrap.git"
   },
   "author": "Susumu Yamazaki",
   "bugs": {
-    "url": "https://github.com/zacky1972/SWEST/issues"
+    "url": "https://github.com/zacky1972/middleman-bootstrap/issues"
   },
-  "homepage": "https://github.com/zacky1972/SWEST#readme",
+  "homepage": "https://github.com/zacky1972/middleman-bootstrap#readme",
   "dependencies": {
     "bootstrap": "^4.0.0-beta.2",
     "jquery": "^3.2.1",

@@ -33,7 +33,7 @@ page '/*.txt', layout: false
 
 helpers do
 	def hostUrl link
-		'https://zacky1972.github.io/SWEST' + link
+		'https://zacky1972.github.io/middlman-bootstrap' + link
 	end
 end
 
@@ -58,7 +58,7 @@ configure :build do
   # activate :minify_javascript
 
   activate :asset_hash
-  activate :asset_host, :host => 'https://zacky1972.github.io/SWEST'
+  activate :asset_host, :host => 'https://zacky1972.github.io/middlman-bootstrap'
 end
 
 activate :deploy do |deploy|
