@@ -3,7 +3,8 @@ const webpack = require('webpack');
 
 const bootstrap = {
 	entry: [
-		__dirname + '/node_modules/bootstrap/scss/bootstrap.scss'
+		__dirname + '/node_modules/bootstrap/scss/bootstrap.scss',
+		__dirname + '/source/stylesheets/site.css.scss'
 	],
 	output: {
 		filename: 'bundle.css',
